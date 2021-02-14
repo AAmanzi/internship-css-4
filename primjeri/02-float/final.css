@@ -1,0 +1,28 @@
+/* GENERALNO */
+
+main {
+  width: 50%;
+  margin: auto;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+.container {
+  border: thin solid #c3c3c3;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 30vh 10px 50vh;
+}
+
+/* FLOAT */
+
+.float-left img {
+  float: left;
+}
+
+.float-right img {
+  float: right;
+}
