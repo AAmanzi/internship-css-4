@@ -1,0 +1,13 @@
+th,
+td {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 5px;
+}
+
+th:first-child {
+  border-top-left-radius: 5px;
+}

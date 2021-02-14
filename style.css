@@ -1,0 +1,40 @@
+@import "assets/css/variables.css";
+@import "aseets/css/fonts.css";
+
+ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  justify-content: flex-end;
+}
+
+li {
+  margin: 0 5px;
+  color: var(--color-blue);
+  font-family: "Roboto";
+  font-weight: 900;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+}
+
+.logo {
+  grid-column-start: 2;
+  transition: margin 0.2s ease-in-out;
+}
+
+.logo:hover {
+  margin-top: 20px;
+}
+
+.radio {
+  width: 40px;
+  height: 40px;
+}
+
+.search {
+  height: 100px;
+  width: 100px;
+}
